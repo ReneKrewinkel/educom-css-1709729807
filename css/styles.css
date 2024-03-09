@@ -76,11 +76,6 @@ html, body {
     font-size: 20px;
 }
 
-a {
-    color: green;
-    font-size: 30px;
-}
-
 h1 {
     color: blue;
     font-size: 50px;
@@ -129,4 +124,23 @@ h1 {
 
 .site-secondary-color{
     color: white;
+}
+
+a:link {
+    color: red;
+}
+  
+
+a:visited {
+color: green;
+}
+
+
+a:hover {
+color: hotpink;
+}
+
+
+a:active {
+color: blue;
 }

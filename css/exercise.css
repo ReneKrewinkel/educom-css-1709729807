@@ -5,23 +5,48 @@ html, body{
 }
 
 .navbar{
-    width: 100%;
-    padding: 40px;
-    background-color: #FFF;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: white;
     color: black;
     font-size: 20px;
 }
 
 .logo{
-    position: fixed;
-    left: 20px;
-    top: 20px; 
+    /* for future use if needed */
 }
 
 .menu{
+    /* for future use if needed */
+}
+
+.menu-trigger{
+    cursor: default;
+    transition: all 0.4s ease;
+    z-index: 5000 !important;
+}
+
+
+.menu-trigger:hover {
+    background-color: grey;
+}
+
+.menu-trigger:hover .menu-dropdown{
+    top: 0px;
+}
+
+.menu-dropdown{
     position: fixed;
-    right: 20px;
-    top: 20px;
+    top: -400px;
+    left: 0px;
+    right: 0px;
+    height: 200px;
+    background-color: black;
+    color: white;
+    transition: all 0.4s ease;
+    padding: 40px;
 }
 
 .content{

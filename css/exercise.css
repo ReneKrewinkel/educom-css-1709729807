@@ -1,0 +1,84 @@
+html, body{
+    padding: 0 !important;
+    margin: 0 !important;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar{
+    width: 100%;
+    padding: 40px;
+    background-color: #FFF;
+    color: black;
+    font-size: 20px;
+}
+
+.logo{
+    position: fixed;
+    left: 20px;
+    top: 20px; 
+}
+
+.menu{
+    position: fixed;
+    right: 20px;
+    top: 20px;
+}
+
+.content{
+    display: flex;
+    background-color: #FFF;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+}
+
+.content-block{
+    display: flex;
+    width: 32%;
+    height: 150px;
+    margin: 5px;
+    border: 10px solid transparent;
+    border-radius: 20px;
+    transition: all 0.3s ease;
+    color: #FFF;
+    font-weight: bold;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+}
+
+.content-block-rome{
+    background: url(https://as1.ftcdn.net/v2/jpg/00/92/58/28/1000_F_92582804_9G6V5hKhcnCJ60w2I87fqOTJmgQEySTy.jpg);
+    background-position: center center;
+}
+
+.content-block-bruxelles{
+    background: url(https://monovisions.com/wp-content/uploads/2015/06/historic-bw-photos-of-brussels-belgium-in-the-19th-century-07-1040x440.jpg);
+    background-position: center center;
+}
+
+.content-block-ny{
+    background: url(https://media.istockphoto.com/id/462797937/photo/manhattan-b-w.jpg?s=612x612&w=0&k=20&c=2Poj86rKCYQzwHDPKWGDpQjwnJUx1W9svOUFTYOeGR8=);
+    background-position: center center;
+}
+
+.content-block:hover{
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+    transform: scale(1.03);
+}
+
+.footer{
+    background-color: rgb(185, 183, 183);
+    color: white;
+    padding: 40px;
+}
+
+.footer-block-1{
+    float: left;
+}
+
+.footer-block-2{
+    float: right;
+}
